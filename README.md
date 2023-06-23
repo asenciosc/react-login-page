@@ -7,8 +7,9 @@ Stack:
 - Tailwind CSS 3.3.2
 - Firebase 9.22:
   - Create Web app and add configuration values.
-  - Authentication:
-    - Enable Google as sign-in provider.
+  - Authentication: - Enable Google as sign-in provider.
+
+-react-firebase-hooks
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
