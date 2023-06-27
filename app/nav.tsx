@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../utils/firebase";
 import Image from "next/image";
-import { DefaultUserIcon } from "../public/images/default-user-icon.png";
+import DefaultUserIcon from "../public/images/default-user-icon.png";
 
 export default function Nav() {
   const [user, loading, error] = useAuthState(auth);
