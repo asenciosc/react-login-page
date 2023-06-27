@@ -21,7 +21,7 @@ export default function Nav() {
         )}
         {user && (
           <div className="rounded-full overflow-hidden">
-            <Link href={"/dashboard"} className="">
+            <Link href={"../dashboard"} className="">
               <Image
                 className=""
                 height={64}
